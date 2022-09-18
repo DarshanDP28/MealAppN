@@ -1,0 +1,56 @@
+#info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.rec-container{
+    margin-top: 25px;
+}
+img{
+   
+    border-radius: 15%;
+    margin-left: 50px;
+    width:350px;
+    height:300px;
+}
+.details-conatiner{
+    margin-top: 20px;
+   padding:40px 30px 5px 30px;
+   background-color: #fde2e4;
+  
+    border-radius: 25px;
+    /* width: 50%;    */
+}
+.instruction{
+   width:700px;
+   height:500px;
+   
+  
+}
+
+.addfavbtn:hover{
+    color:sienna;
+    transition: ease-in;
+    
+}
+.favbtnh:hover{
+    cursor: pointer;
+
+}
+
+ @media screen and (max-width: 600px) {
+    .details-conatiner{
+        width: 100%;
+        
+       
+        
+    }
+    .instruction{
+         word-wrap: break-word;
+         max-width: 100%;
+         overflow: hidden;
+    }
+}
+ 
+
