@@ -6,7 +6,7 @@ function checkOnline() {
   }
 }
 checkOnline();
-
+// BarProp
  // RegExp \D Metacharacter
  var hasNumber = /\d/;
 
